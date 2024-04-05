@@ -1,0 +1,14 @@
+.card {
+    max-width: 100%;
+}
+
+.card img {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 3px;
+    margin-bottom: 0.5rem;
+}
+
+.title{
+    margin-bottom: 0.5rem;
+}
