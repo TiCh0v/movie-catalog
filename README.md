@@ -1,8 +1,11 @@
-# React + Vite
+# Movie catalog
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![sample](https://github.com/TiCh0v/movie-catalog/blob/main/src/assets/Screenshot%20from%202024-04-05%2017-35-16.png)
 
-Currently, two official plugins are available:
+[deploy](https://tich0v.github.io/movie-catalog/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Сайт для поиска фильмов и сериалов и трейлеров к ним. В процессе создания разобрался как работать с API (используется TMDb API), интеграцией роликов с YouTube, роутингом и навигацией в целом. Поработал над адаптацией для мобильных устройств.
+
+Важно! Если при просмотре сайта, не загружается часть информации, используйте VPN, tmdb api не работает с российскими ip-адресами.
+
+A site for searching movies and TV series and their trailers. In the process of creation I figured out how to work with API (TMDb API is used), integration of clips with YouTube, routing and navigation in general. I worked on adaptation for mobile devices.
