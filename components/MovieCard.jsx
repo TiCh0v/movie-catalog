@@ -6,7 +6,7 @@ function MovieCard({ movie }) {
   const navigation = useNavigate();
 
   const handleClick = () => {
-    navigation(`/film/${movie.id}`);
+    navigation(`/movie-catalog/film/${movie.id}`);
   };
 
   const imgPath = "http://image.tmdb.org/t/p/w500/";
