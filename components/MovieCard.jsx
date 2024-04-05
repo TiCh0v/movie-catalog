@@ -1,4 +1,3 @@
-// MovieCard.jsx
 import React from 'react';
 import '../styles/CardStyle.css';
 import { useNavigate } from 'react-router-dom';

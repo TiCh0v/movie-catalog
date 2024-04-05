@@ -8,7 +8,7 @@ function Bottom() {
     <div className='bottom'>
       <div className='centered-content'>
         <p className='upperP'>Do you like this website? We could work together! </p>
-        <p>Contact to me:</p>
+        <p>Contact me:</p>
       </div>
       <div className='icons'>
         <IonIcon icon={paperPlane} style={{ fontSize: '30px', cursor: 'pointer' }} onClick={() => window.open('https://t.me/o32f87')} />

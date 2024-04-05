@@ -63,7 +63,7 @@
   
 }
 .hero-content{
-  /* padding: 1rem; */
+  
   position: relative;
   width: 100%;
 }
@@ -95,9 +95,9 @@ input{
   margin-right: 0.2rem;
   outline: none;
 
-  -webkit-user-select: none; /* Для браузеров, использующих движок WebKit (Chrome, Safari, новые версии Edge) */
-  -moz-user-select: none; /* Для браузеров, использующих движок Gecko (Firefox) */
-  -ms-user-select: none; /* Для браузеров, использующих Internet Explorer */
+  -webkit-user-select: none;
+  -moz-user-select: none; 
+  -ms-user-select: none; 
   user-select: none;
 }
 button{
@@ -118,17 +118,16 @@ button{
   left: 0;
   right: 0;
   top: 0;
-  width: 100%; /* Убедитесь, что контейнер YouTube занимает всю ширину */
-  /* Удалено свойство height, если вы хотите, чтобы высота автоматически адаптировалась */
+  width: 100%; 
 }
 
 
 
 
-/* Один столбец для мобильных устройств */
+
 @media only screen and (max-width: 600px) {
   .gridbox {
-    grid-template-columns: repeat(1, 1fr); /* Один столбец */
+    grid-template-columns: repeat(1, 1fr); 
   }
   .name {
     font-size: 11pt;
@@ -137,10 +136,10 @@ button{
   }
 }
 
-/* Четыре столбца для средних экранов */
+
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
   .gridbox {
-    grid-template-columns: repeat(4, 1fr); /* Четыре столбца */
+    grid-template-columns: repeat(4, 1fr); 
   }
   .name {
     font-size: 15pt;
@@ -149,10 +148,10 @@ button{
   }
 }
 
-/* Шесть столбцов для больших экранов */
+
 @media only screen and (min-width: 1025px) {
   .gridbox {
-    grid-template-columns: repeat(4, 1fr); /* Шесть столбцов */
+    grid-template-columns: repeat(4, 1fr); 
   }
 }
 

@@ -34,7 +34,7 @@
 }
 
 .poster {
-    max-width: 25%; /* Занимает 1/5 от ширины */
+    max-width: 25%; 
     height: auto; 
     border-radius: 3px;
     margin-bottom: 0.5rem;
@@ -43,7 +43,7 @@
 .incl {
     padding-left: 0;
     padding-right: 0;
-    flex: 1; /* Занимает оставшиеся 4/5 от ширины */
+    flex: 1; 
 }
 
 
@@ -51,12 +51,10 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
-    /* padding-left: 1rem;
-    padding-right: 1rem; */
     align-items: center;
 }
 .play-trailer {
-      display: flex;
+    display: flex;
   align-items: center;
   color: white;
   background-color: rgb(47, 208, 65);
@@ -103,7 +101,7 @@ span{
 @media (max-width: 500px) {
     .upperinfoblock {
       flex-direction: column;
-      /* align-items: center; */
+     
     }
   
     .film_name {

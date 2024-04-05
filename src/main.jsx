@@ -1,4 +1,4 @@
-// index.jsx
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; 
@@ -10,7 +10,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <Router>
     <Routes>
       <Route path="/" element={<App />} />
-      <Route path="/film/:id" element={<FilmDetails />} /> {/* Добавлен параметр :id */}
+      <Route path="/film/:id" element={<FilmDetails />} />
     </Routes>
   </Router>,
 );

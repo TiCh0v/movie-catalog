@@ -5,7 +5,7 @@ import '../styles/FilmDetails.css';
 import Bottom from '../components/Bottom';
 import { IonIcon } from '@ionic/react';
 import { playOutline, closeOutline } from 'ionicons/icons';
-import YouTube from 'react-youtube'; // Добавлен импорт
+import YouTube from 'react-youtube';
 
 function FilmDetails() {
   const { id } = useParams();
@@ -63,17 +63,6 @@ function FilmDetails() {
     if (!officialTrailer) {
       return null;
     }
-
-    // return (
-    //   <YouTube 
-    //     videoId={officialTrailer.key}
-    //     containerClassName={"youtube-container"}
-    //     opts={{
-    //       width: '100%',
-    //       height: '500px'
-    //     }}
-    //   />
-    // );
     return (
       <div style={{ position: 'relative' }}>
         <YouTube 
@@ -93,18 +82,10 @@ function FilmDetails() {
     );
   };
 
-  // Округляем оценку до одного знака после запятой
   const voteAverage = filmInfo.vote_average.toFixed(1);
 
   return (
     <div className='main-element'>
-      {/* <div className='trailler' style={{backgroundImage: `url(${imgPath}${filmInfo.backdrop_path})`}}>
-        {playTrailer ? renderTrailer() : null} 
-        <button className='play-trailer' onClick={() => setPlayTrailer(true)}>
-          <IonIcon icon={playOutline} />
-          Play
-        </button>
-      </div> */}
       <div className='trailler' style={{ backgroundImage: `url(${imgPath}${filmInfo.backdrop_path})` }}>
         <div className='hero-content'>
           {playTrailer ? renderTrailer(trailer) : 
