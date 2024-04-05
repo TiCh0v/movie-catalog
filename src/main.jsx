@@ -9,8 +9,8 @@ import FilmDetails from './FilmDetails.jsx';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <Router>
     <Routes>
-      <Route path="/" element={<App />} />
-      <Route path="/film/:id" element={<FilmDetails />} />
+      <Route path="/movie-catalog" element={<App />} />
+      <Route path="/movie-catalog/film/:id" element={<FilmDetails />} />
     </Routes>
   </Router>,
 );
